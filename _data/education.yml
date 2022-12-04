@@ -1,0 +1,39 @@
+- what:
+  - title: "Assistant computational scientist"
+    when: "2021-present"
+  institution: "Brookhaven National Laboratory"
+  institution_link: "https://www.bnl.gov/world"
+  institution_secondary: "Upton, New York"
+
+- what:
+  - title: "Ph.D. in chemical physics"
+    when: "2021"
+  - title: "M.A. in chemical physics"
+    when: "2017"
+  institution: "Columbia University"
+  institution_link: "https://www.columbia.edu"
+  institution_secondary: "New York, New York"
+
+- what:
+  - title: "Computational Science Graduate Fellowship"
+    when: "2017-2021"
+  institution: "The Krell Institute"
+  institution_link: "https://www.krellinst.org/csgf"
+  institution_secondary: "On behalf of the United States Department of Energy"
+
+- what:
+  - title: "B.S. in chemistry with highest distinction"
+    when: "2016"
+  - title: "B.A. in physics with highest distinction"
+    when: "2016"
+  institution: The University of Rochester
+  institution_link: "https://www.rochester.edu"
+  institution_secondary: "Rochester, New York"
+  notes: "Magna cum laude, Phi Beta Kappa"
+
+- what:
+  - title: "High school diploma"
+    when: "2012"
+  institution: "Watchung Hills Regional High School"
+  institution_link: "https://www.whrhs.org"
+  institution_secondary: "Warren, New Jersey"

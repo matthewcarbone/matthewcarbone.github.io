@@ -8,34 +8,19 @@ permalink: /about.html
 
 I am an experimental chemist by training, but became a theoretical condensed matter physicist in graduate school. Over time, I have also begun to incorporate many more data-driven methods into my work, including machine learning. Currently, I study a variety of topics, including condensed matter, computational spectroscopy and how we can use data-driven techniques to accelerate discovery and aid interpretation/analysis in science.
 
-<h2>Professional summary &amp; education</h2>
-<p>
-  <span class="custom_bold">Assistant computational scientist</span> (2021-present) <br>
-  <a href="https://www.bnl.gov/world/">Brookhaven National Laboratory</a>, Upton, New York 
-</p>
-<p>
-  <span class="custom_bold">Ph.D. in chemical physics</span> (2021) <br>
-  <span class="custom_bold">M.A. in chemical physics</span> (2017) <br>
-  <a href="https://www.columbia.edu">Columbia University</a>, New York, New York 
-</p>
-<p>
-  <span class="custom_bold">Computational Science Graduate Fellowship</span> (2017) <br>
-  The <a href="https://www.krellinst.org/csgf/">Krell Institute</a> on behalf of the United States Department of Energy
-</p>
-<p>
-  <span class="custom_bold">B.S. in chemistry with highest distinction</span> (2016) <br>
-  <span class="custom_bold">B.A. in physics with highest distinction</span> (2016) <br>
-  <em>Magna cum laude, Phi Beta Kappa, Sigma Pi Sigma physics honor society</em> <br>
-  <a href="https://www.rochester.edu">University of Rochester</a>, Rochester, New York
-</p>
-<p>
-  <span class="custom_bold">High school diploma</span> (2012) <br>
-  <a href="https://www.whrhs.org">Watchung Hills Regional High School</a>, Warren, New Jersey
-</p>
+<h2>Professional appointments &amp; education</h2>
 
-<!-- <sup> <a href="#fn1" id="ref1">1</a></sup> -->
-<!-- <sup id="fn1">1. [Text of footnote 1]<a href="#ref1" title="Jump back to footnote 1 in the text.">↩</a></sup> -->
-
+{% for section in site.data.education %}
+  <p>
+    {% for what in section.what %}
+      <span class="custom_bold">{{ what.title }}</span> ({{ what.when }}) <br>
+    {% endfor %}
+    {% if section.notes != null %}
+      <em> {{ section.notes }} </em> <br>
+    {% endif %}
+    <a href="{{ section.institution_link }}"> {{ section.institution }}</a> | {{ section.institution_secondary }}
+  </p>
+{% endfor %}
 
 <h2>Contact</h2>
 <p>
