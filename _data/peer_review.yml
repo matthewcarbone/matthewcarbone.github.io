@@ -1,0 +1,23 @@
+journals:
+  - name: "Chemistry of Materials"
+    link: "https://pubs.acs.org/journal/cmatex"
+  - name: "Digital Discovery"
+    link: "https://pubs.rsc.org/en/journals/journalissues/dd#!recentarticles&adv"
+  - name: "The Journal of Physics A"
+    link: "https://iopscience.iop.org/journal/0305-4470"
+  - name: "The Journal of Chemical Physics"
+    link: "https://aip.scitation.org/journal/jcp"
+  - name: "The New Journal of Physics"
+    link: "https://iopscience.iop.org/journal/1367-2630"
+  - name: "Physical Review B"
+    link: "https://journals.aps.org/prb"
+  - name: "Physical Review Letters"
+    link: "https://journals.aps.org/prl"
+  - name: "Physical Review Materials"
+    link: "https://journals.aps.org/prmaterials"
+  - name: "Scientific Reports"
+    link: "https://www.nature.com/srep"
+
+proposals:
+  - name: "United States Department of Energy Small Business Innovation Research"
+    link: "https://science.osti.gov/sbir"

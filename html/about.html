@@ -6,9 +6,11 @@ permalink: /about.html
 
 <h1 id="page_header">About me</h1>
 
-I am an experimental chemist by training, but became a theoretical condensed matter physicist in graduate school. Over time, I have also begun to incorporate many more data-driven methods into my work, including machine learning. Currently, I study a variety of topics, including condensed matter, computational spectroscopy and how we can use data-driven techniques to accelerate discovery and aid interpretation/analysis in science.
+I am an experimental chemist by training, but became a theoretical condensed matter physicist in graduate school. Over time, I have also begun to incorporate many more data-driven methods into my work, including machine learning. Currently, I study a variety of topics, including condensed matter, computational spectroscopy and how we can use data-driven techniques to accelerate discovery and aid interpretation/analysis in science.<br>
 
-<h2>Professional appointments &amp; education</h2>
+<!-- <a href="#professional_appointments_and_education">Professional Appointments & Education</a><br> -->
+
+<h2 id="professional_appointments_and_education">Professional appointments &amp; education</h2>
 
 {% for section in site.data.education %}
   <p>
@@ -20,6 +22,22 @@ I am an experimental chemist by training, but became a theoretical condensed mat
     {% endif %}
     <a href="{{ section.institution_link }}"> {{ section.institution }}</a> | {{ section.institution_secondary }}
   </p>
+{% endfor %}
+
+<h2 id="peer_review">Peer review</h2>
+
+Journals: 
+
+{% for section in site.data.peer_review.journals %}
+  <a href="{{ section.link }}">{{ section.name }}</a>{% if forloop.index != site.data.peer_review.journals.size %},{% endif %}
+{% endfor %}
+
+<br><br>
+
+Proposals:
+
+{% for section in site.data.peer_review.proposals %}
+  <a href="{{ section.link }}">{{ section.name }}</a>{% if forloop.index != site.data.peer_review.proposals.size %},{% endif %}
 {% endfor %}
 
 <h2>Contact</h2>
