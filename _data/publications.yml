@@ -1,3 +1,16 @@
+- year: 2023
+  publications:
+
+  - authors: Z. Liang, M. R. Carbone, W. Chen, F. Meng, E. Stavitski, D. Lu, M. S. Hybertsen & X. Qu
+    title: "Decoding Structure-Spectrum Relationships with Physically Organized Latent Spaces"
+    doi: "https://doi.org/10.48550/arXiv.2301.04724"
+    journal: "arXiv:2301.04724"
+    year: 2023
+    links:
+      - address: null
+        text: "&#128300; Submitted: Advanced Science"
+    paper_number: 17
+
 - year: 2022
   publications:
 
