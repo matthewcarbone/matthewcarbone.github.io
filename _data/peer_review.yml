@@ -9,6 +9,8 @@ journals:
     link: "https://aip.scitation.org/journal/jcp"
   - name: "The New Journal of Physics"
     link: "https://iopscience.iop.org/journal/1367-2630"
+  - name: "Physical Chemistry Chemical Physics"
+    link: "https://www.rsc.org/journals-books-databases/about-journals/pccp/"
   - name: "Physical Review B"
     link: "https://journals.aps.org/prb"
   - name: "Physical Review Letters"
