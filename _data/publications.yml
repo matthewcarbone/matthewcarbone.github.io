@@ -1,4 +1,4 @@
-- year: 2023
+- year: Preprints
   publications:
 
   - authors: J. Lee, M. R. Carbone & W. Yin
@@ -18,11 +18,8 @@
     year: 2023
     links:
       - address: null
-        text: "&#128300; Submitted: Advanced Science"
+        text: "&#128300; Submitted: Physical Review X"
     paper_number: 17
-
-- year: 2022
-  publications:
 
   - authors: M. R. Carbone, S. Fomichev, A. J. Millis, M. Berciu, D. R. Reichman & J. Sous
     title: "The Generalized Green's function Cluster Expansion: A Python package for simulating polarons"
@@ -55,8 +52,11 @@
     year: 2022
     links:
       - address: null
-        text: "&#128300; Under Review: Physical Review Research"
+        text: "Accepted: Physical Review Research"
     paper_number: 14
+
+- year: 2022
+  publications:
 
   - authors: M. R. Carbone
     title: "When not to use machine learning: A perspective on potential and limitations"
