@@ -1,6 +1,16 @@
 - year: Preprints
   publications:
 
+  - authors: P. M. Maffettone, D. B. Allan, S. I. Campbell, M. R. Carbone, T. A. Caswell, B. L. DeCost, D. Gavrilov, M. D. Hanwell, H. Joress, J. Lynch, B. Ravel, S. B. Wilkins, J. Wlodek & D. Olds
+    title: "Self-driving Multimodal Studies at User Facilities"
+    doi: "https://doi.org/10.48550/arXiv.2301.09177"
+    journal: "arXiv:2301.09177"
+    year: 2023
+    links:
+      - address: null
+        text: "Presented at NeurIPS 2022"
+    paper_number: 19
+
   - authors: J. Lee, M. R. Carbone & W. Yin
     title: "Machine-learning the spectral function of a hole in a quantum antiferromagnet"
     doi: "https://doi.org/10.48550/arXiv.2301.07906"
