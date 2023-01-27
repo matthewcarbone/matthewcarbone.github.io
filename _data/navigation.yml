@@ -1,7 +1,7 @@
 - name: home
   link: /index.html
 - name: cv
-  link: /cv.html
+  link: /docs/CV_Carbone.pdf
 - name: publications
   link: /publications.html
 - name: cat

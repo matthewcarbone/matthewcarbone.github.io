@@ -65,6 +65,16 @@
         text: "Accepted: Physical Review Research"
     paper_number: 14
 
+  # - authors: W. Chen, Y. Ren, A. Kagawa, M. R. Carbone, S. Y. Chen, X. Qu, S. Yoo, A. Clyde, A Ramanathan, R. L. Stevens, H. J. J. van Dam & D. Lu
+  #   title: Graph Neural Fingerprint-based Machine Learning Surrogate Models for Docking: Application to a COVID-19 Docking Dataset
+  #   doi: "https://arxiv.org/abs/arXiv:2210.00336"
+  #   journal: "arXiv:2210.00336"
+  #   year: 2022
+  #   links:
+  #     - address: null
+  #       text: "Accepted: Physical Review Research"
+  #   paper_number: 14
+
 - year: 2022
   publications:
 
