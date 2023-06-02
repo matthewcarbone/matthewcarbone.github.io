@@ -1,26 +1,6 @@
 - year: Preprints
   publications:
 
-  - authors: H. Guo, M. R. Carbone, C. Cao, J. Qu, Y. Du, S. Bak, C. Weiland, F. Wang, S. Yoo, N. Artrith, A. Urban & D. Lu
-    title: "Simulated sulfur K-edge X-ray absorption spectroscopy database of lithium thiophosphate solid electrolytes"
-    doi: "https://doi.org/10.48550/arXiv.2302.00126"
-    journal: "arXiv:2302.00126"
-    year: 2023
-    links:
-      - address: null
-        text: "&#128300; Accepted: Nature Scientific Data"
-    paper_number: 20
-
-  - authors: P. M. Maffettone, D. B. Allan, S. I. Campbell, M. R. Carbone, T. A. Caswell, B. L. DeCost, D. Gavrilov, M. D. Hanwell, H. Joress, J. Lynch, B. Ravel, S. B. Wilkins, J. Wlodek & D. Olds
-    title: "Self-driving Multimodal Studies at User Facilities"
-    doi: "https://doi.org/10.48550/arXiv.2301.09177"
-    journal: "arXiv:2301.09177"
-    year: 2023
-    links:
-      - address: null
-        text: "Presented at the 36th Conference on Neural Information Processing Systems (NeurIPS 2022)"
-    paper_number: 19
-
   - authors: M. R. Carbone, S. Fomichev, A. J. Millis, M. Berciu, D. R. Reichman & J. Sous
     title: "The Generalized Green's function Cluster Expansion: A Python package for simulating polarons"
     doi: "https://arxiv.org/abs/arXiv:2210.12260"
@@ -31,7 +11,7 @@
         text: "&#128300; Under Review: Journal of Open Source Software"
       - address: "https://github.com/x94carbone/GGCE"
         text: GitHub
-    paper_number: 18
+    paper_number: 20
 
   - authors: M. R. Carbone, F. Meng, C. Vorwerk, B. Maurer, F. Peschel, X. Qu, E. Stavitski, C. Draxl, J. Vinson & D. Lu
     title: "Lightshow: a Python package for generating computational x-ray absorption spectroscopy input files"
@@ -43,7 +23,7 @@
         text: "&#128300; Under Review: Journal of Open Source Software"
       - address: "https://github.com/AI-multimodal/Lightshow"
         text: GitHub
-    paper_number: 17
+    paper_number: 19
 
   # - authors: W. Chen, Y. Ren, A. Kagawa, M. R. Carbone, S. Y. Chen, X. Qu, S. Yoo, A. Clyde, A Ramanathan, R. L. Stevens, H. J. J. van Dam & D. Lu
   #   title: Graph Neural Fingerprint-based Machine Learning Surrogate Models for Docking: Application to a COVID-19 Docking Dataset
@@ -58,6 +38,15 @@
 - year: 2023
   publications:
 
+  - authors: H. Guo, M. R. Carbone, C. Cao, J. Qu, Y. Du, S. Bak, C. Weiland, F. Wang, S. Yoo, N. Artrith, A. Urban & D. Lu
+    title: "Simulated sulfur K-edge X-ray absorption spectroscopy database of lithium thiophosphate solid electrolytes"
+    doi: "https://doi.org/10.1038/s41597-023-02262-4"
+    journal: "Scientific Data"
+    volume: 10
+    number: "349 "
+    year: 2023
+    paper_number: 18
+
   - authors: J. Lee, M. R. Carbone & W. Yin
     title: "Machine-learning the spectral function of a hole in a quantum antiferromagnet"
     doi: "https://doi.org/10.1103/PhysRevB.107.205132"
@@ -65,7 +54,10 @@
     volume: 107
     number: "205132"
     year: 2023
-    paper_number: 16
+    links:
+      - address: docs/PhysRevB.107.205132.pdf
+        text: PDF
+    paper_number: 17
 
   - authors: Z. Liang, M. R. Carbone, W. Chen, F. Meng, E. Stavitski, D. Lu, M. S. Hybertsen & X. Qu
     title: "Decoding Structure-Spectrum Relationships with Physically Organized Latent Spaces"
@@ -77,7 +69,7 @@
     links:
       - address: docs/PhysRevMaterials.7.053802.pdf
         text: PDF
-    paper_number: 15
+    paper_number: 16
 
   - authors: A. Ghose, M. Segal, F. Meng, Z. Liang, M. S. Hybertsen, X. Qu, E. Stavitski, S. Yoo, D. Lu & M. R. Carbone
     title: Uncertainty-aware predictions of molecular X-ray absorption spectra using neural network ensembles
@@ -86,11 +78,21 @@
     volume: 5
     number: "013180"
     year: 2023
-    paper_number: 14
+    paper_number: 15
 
 
 - year: 2022
   publications:
+
+  - authors: P. M. Maffettone, D. B. Allan, S. I. Campbell, M. R. Carbone, T. A. Caswell, B. L. DeCost, D. Gavrilov, M. D. Hanwell, H. Joress, J. Lynch, B. Ravel, S. B. Wilkins, J. Wlodek & D. Olds
+    title: "Self-driving Multimodal Studies at User Facilities"
+    doi: "https://doi.org/10.48550/arXiv.2301.09177"
+    journal: "arXiv:2301.09177"
+    year: 2023
+    links:
+      - address: null
+        text: "Presented at the 36th Conference on Neural Information Processing Systems (NeurIPS 2022)"
+    paper_number: 14
 
   - authors: M. R. Carbone
     title: "When not to use machine learning: A perspective on potential and limitations"
