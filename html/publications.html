@@ -27,6 +27,10 @@ permalink: /publications.html
           {% if pub.journal contains "arXiv" %}
             {{ pub.journal }} ({{ pub.year }}).
 
+          <!-- If the publication is an arXiv preprint -->
+          {% elsif pub.journal contains "chemrxiv" %}
+            {{ pub.journal }} ({{ pub.year }}).
+
           <!-- Weird edge case, like a book chapter -->
           {% elsif pub.number == "N/A" %}
             {{ pub.journal }} ({{ pub.year }}).

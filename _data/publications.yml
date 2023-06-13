@@ -1,6 +1,13 @@
 - year: Preprints
   publications:
 
+  - authors: Y. Basdogan, D. R. Pollard, T. Shastry, M. R. Carbone, S. K. Kumar & Z.-G. Wang 
+    title: "Machine Learning-Guided Discovery of Polymer Membranes for CO2 Separation"
+    doi: "https://doi.org/10.26434/chemrxiv-2023-5h4s7"
+    journal: "chemrxiv-2023-5h4s7"
+    year: 2023
+    paper_number: 21
+
   - authors: M. R. Carbone, S. Fomichev, A. J. Millis, M. Berciu, D. R. Reichman & J. Sous
     title: "The Generalized Green's function Cluster Expansion: A Python package for simulating polarons"
     doi: "https://arxiv.org/abs/arXiv:2210.12260"
