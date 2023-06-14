@@ -8,7 +8,9 @@ permalink: /publications.html
   Publications
 </h1>
 <p>
-  For an automatically updating list of citable work, please of course see my <a href="https://scholar.google.com/citations?user=DAyj0b8AAAAJ&hl=en">Google Scholar</a> (as I only periodically update my site). I do host PDF's here when possible, though! You can find a copy of my dissertation <a href="docs/dissertation.pdf">here</a>.
+  For an automatically updating list of citable work, please of course see my <a href="https://scholar.google.com/citations?user=DAyj0b8AAAAJ&hl=en">Google Scholar</a> (as I only periodically update my site). I do host PDF's here when possible, though!
+  You can find a copy of my dissertation <a href="docs/dissertation.pdf">here</a>.
+  * Indicates equally contributing authors.
 </p>
 
 
@@ -18,7 +20,7 @@ permalink: /publications.html
     {% for pub in section.publications %}
       <li value="{{ pub.paper_number }}">
         <span class="article">
-          
+        
           {% capture authors %}{{ pub.authors | replace: "M. R. Carbone", '<span class="article_author_highlight">M. R. Carbone</span>' }}{% endcapture %}
 
           {{ authors }}. <em> <a href="{{ pub.doi }}">{{ pub.title }}.</a> </em>
