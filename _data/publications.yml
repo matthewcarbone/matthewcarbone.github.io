@@ -1,6 +1,13 @@
 - year: Preprints
   publications:
 
+  - authors: S. Goswami, K. Barros & M. R. Carbone
+    title: "Physically interpretable approximations of many-body spectral functions"
+    doi: "https://doi.org/10.48550/arXiv.2306.11038"
+    journal: "arXiv:2306.11038"
+    year: 2023
+    paper_number: 22
+
   - authors: Y. Basdogan, D. R. Pollard, T. Shastry, M. R. Carbone, S. K. Kumar & Z.-G. Wang 
     title: "Machine Learning-Guided Discovery of Polymer Membranes for CO2 Separation"
     doi: "https://doi.org/10.26434/chemrxiv-2023-5h4s7"
