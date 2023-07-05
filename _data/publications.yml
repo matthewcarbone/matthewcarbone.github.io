@@ -1,12 +1,25 @@
 - year: Preprints
   publications:
 
+  - authors: M. R. Carbone, P. M. Maffettone, X. Qu, S. Yoo & D. Lu
+    title: "Accurate, uncertainty-aware classification of molecular chemical motifs from multi-modal X-ray absorption spectroscopy"
+    doi: "https://doi.org/10.48550/arXiv.2306.16349"
+    journal: "arXiv:2306.16349"
+    year: 2023
+    paper_number: 23
+    links:
+      - address: null
+        text: "Submitted: Physical Review Research Letters"
+
   - authors: S. Goswami, K. Barros & M. R. Carbone
     title: "Physically interpretable approximations of many-body spectral functions"
     doi: "https://doi.org/10.48550/arXiv.2306.11038"
     journal: "arXiv:2306.11038"
     year: 2023
     paper_number: 22
+    links:
+      - address: null
+        text: "Submitted: Physical Review E Letters"
 
   - authors: Y. Basdogan, D. R. Pollard, T. Shastry, M. R. Carbone, S. K. Kumar & Z.-G. Wang 
     title: "Machine Learning-Guided Discovery of Polymer Membranes for CO2 Separation"
@@ -14,6 +27,9 @@
     journal: "chemrxiv-2023-5h4s7"
     year: 2023
     paper_number: 21
+    links:
+      - address: null
+        text: "Submitted: Science Advances"
 
   - authors: M. R. Carbone*, S. Fomichev*, A. J. Millis, M. Berciu, D. R. Reichman & J. Sous
     title: "The Generalized Green's function Cluster Expansion: A Python package for simulating polarons"
