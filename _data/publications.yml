@@ -1,6 +1,16 @@
 - year: Preprints
   publications:
 
+  - authors: M. R. Carbone, H. J. Kim, C. Fernando, S. Yoo, D. Olds, H. Joress, B. DeCost, B. Ravel, Y. Zhang, P. M. Maffettone
+    title: "Emulating Expert Insight: A Robust Strategy for Optimal Experimental Design"
+    doi: "https://doi.org/10.48550/arXiv.2307.13871"
+    journal: "arXiv.2307.13871"
+    year: 2023
+    paper_number: 24
+    links:
+      - address: null
+        text: "Submitted: Matter"
+
   - authors: M. R. Carbone, P. M. Maffettone, X. Qu, S. Yoo & D. Lu
     title: "Accurate, uncertainty-aware classification of molecular chemical motifs from multi-modal X-ray absorption spectroscopy"
     doi: "https://doi.org/10.48550/arXiv.2306.16349"
@@ -9,7 +19,7 @@
     paper_number: 23
     links:
       - address: null
-        text: "Submitted: Physical Review Research Letters"
+        text: "&#128300; Under Review: Physical Review Research Letters"
 
   - authors: S. Goswami, K. Barros & M. R. Carbone
     title: "Physically interpretable approximations of many-body spectral functions"
@@ -19,7 +29,7 @@
     paper_number: 22
     links:
       - address: null
-        text: "Submitted: Physical Review E Letters"
+        text: "&#128300; Under Review: Physical Review E Letters"
 
   - authors: Y. Basdogan, D. R. Pollard, T. Shastry, M. R. Carbone, S. K. Kumar & Z.-G. Wang 
     title: "Machine Learning-Guided Discovery of Polymer Membranes for CO2 Separation"
@@ -29,7 +39,7 @@
     paper_number: 21
     links:
       - address: null
-        text: "Submitted: Science Advances"
+        text: "&#128300; Under Review: Science Advances"
 
   - authors: M. R. Carbone*, S. Fomichev*, A. J. Millis, M. Berciu, D. R. Reichman & J. Sous
     title: "The Generalized Green's function Cluster Expansion: A Python package for simulating polarons"
