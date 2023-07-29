@@ -53,18 +53,6 @@
         text: GitHub
     paper_number: 20
 
-  - authors: M. R. Carbone*, F. Meng*, C. Vorwerk, B. Maurer, F. Peschel, X. Qu, E. Stavitski, C. Draxl, J. Vinson & D. Lu
-    title: "Lightshow: a Python package for generating computational x-ray absorption spectroscopy input files"
-    doi: "https://arxiv.org/abs/arXiv:2211.04452"
-    journal: "arXiv:2211.04452"
-    year: 2022
-    links:
-      - address: "https://github.com/openjournals/joss-reviews/issues/4888"
-        text: "&#128300; Under Review: Journal of Open Source Software"
-      - address: "https://github.com/AI-multimodal/Lightshow"
-        text: GitHub
-    paper_number: 19
-
   # - authors: W. Chen, Y. Ren, A. Kagawa, M. R. Carbone, S. Y. Chen, X. Qu, S. Yoo, A. Clyde, A Ramanathan, R. L. Stevens, H. J. J. van Dam & D. Lu
   #   title: Graph Neural Fingerprint-based Machine Learning Surrogate Models for Docking: Application to a COVID-19 Docking Dataset
   #   doi: "https://arxiv.org/abs/arXiv:2210.00336"
@@ -77,6 +65,16 @@
 
 - year: 2023
   publications:
+
+  - authors: M. R. Carbone*, F. Meng*, C. Vorwerk, B. Maurer, F. Peschel, X. Qu, E. Stavitski, C. Draxl, J. Vinson & D. Lu
+    title: "Lightshow: a Python package for generating computational x-ray absorption spectroscopy input files"
+    doi: "https://doi.org/10.21105/joss.05182"
+    journal: "Journal of Open Source Software"
+    year: 2023
+    links:
+      - address: "https://github.com/AI-multimodal/Lightshow"
+        text: GitHub
+    paper_number: 19
 
   - authors: H. Guo*, M. R. Carbone*, C. Cao, J. Qu, Y. Du, S. Bak, C. Weiland, F. Wang, S. Yoo, N. Artrith, A. Urban & D. Lu
     title: "Simulated sulfur K-edge X-ray absorption spectroscopy database of lithium thiophosphate solid electrolytes"
