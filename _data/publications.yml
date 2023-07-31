@@ -70,6 +70,8 @@
     title: "Lightshow: a Python package for generating computational x-ray absorption spectroscopy input files"
     doi: "https://doi.org/10.21105/joss.05182"
     journal: "Journal of Open Source Software"
+    volume: 8
+    number: "5182"
     year: 2023
     links:
       - address: "https://github.com/AI-multimodal/Lightshow"
@@ -81,7 +83,7 @@
     doi: "https://doi.org/10.1038/s41597-023-02262-4"
     journal: "Scientific Data"
     volume: 10
-    number: "349 "
+    number: "349"
     year: 2023
     paper_number: 18
 
