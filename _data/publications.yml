@@ -63,18 +63,13 @@
         text: GitHub
     paper_number: 20
 
-  # - authors: W. Chen, Y. Ren, A. Kagawa, M. R. Carbone, S. Y. Chen, X. Qu, S. Yoo, A. Clyde, A Ramanathan, R. L. Stevens, H. J. J. van Dam & D. Lu
-  #   title: Graph Neural Fingerprint-based Machine Learning Surrogate Models for Docking: Application to a COVID-19 Docking Dataset
-  #   doi: "https://arxiv.org/abs/arXiv:2210.00336"
-  #   journal: "arXiv:2210.00336"
-  #   year: 2022
-  #   links:
-  #     - address: null
-  #       text: "Accepted: Physical Review Research"
-  #   paper_number: 14
-
 - year: 2023
   publications:
+
+  - authors: H. Kwon, W. Sun, T. Hsu, W. Jeong, F. Aydin, S. Sharma, F. Meng, M. R. Carbone, X. Chen, D. Lu, L. F. Wan, M. H. Nielsen & T. A. Pham
+    title: "Harnessing Neural Networks for Elucidating X-ray Absorption Structure–Spectrum Relationships in Amorphous Carbon"
+    doi: "https://doi.org/10.1021/acs.jpcc.3c02029"
+    journal: "The Journal of Physical Chemistry C"
 
   - authors: M. R. Carbone*, F. Meng*, C. Vorwerk, B. Maurer, F. Peschel, X. Qu, E. Stavitski, C. Draxl, J. Vinson & D. Lu
     title: "Lightshow: a Python package for generating computational x-ray absorption spectroscopy input files"

@@ -2,6 +2,8 @@
   link: /index.html
 - name: cv
   link: /docs/CV_Carbone.pdf
+- name: outreach
+  link: /outreach.html
 - name: publications
   link: /publications.html
 - name: cat
