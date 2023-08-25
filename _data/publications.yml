@@ -6,7 +6,7 @@
     doi: "https://doi.org/10.48550/arXiv.2308.01921"
     journal: "arXiv.2308.01921"
     year: 2023
-    paper_number: 25
+    paper_number: 26
     links:
       - address: null
         text: "Submitted: ICLMA 2023"
@@ -16,7 +16,7 @@
     doi: "https://doi.org/10.48550/arXiv.2307.13871"
     journal: "arXiv.2307.13871"
     year: 2023
-    paper_number: 24
+    paper_number: 25
     links:
       - address: null
         text: "Submitted: Matter"
@@ -26,7 +26,7 @@
     doi: "https://doi.org/10.48550/arXiv.2306.16349"
     journal: "arXiv:2306.16349"
     year: 2023
-    paper_number: 23
+    paper_number: 24
     links:
       - address: null
         text: "&#128300; Under Review: Physical Review Research Letters"
@@ -36,7 +36,7 @@
     doi: "https://doi.org/10.48550/arXiv.2306.11038"
     journal: "arXiv:2306.11038"
     year: 2023
-    paper_number: 22
+    paper_number: 23
     links:
       - address: null
         text: "&#128300; Under Review: Physical Review E Letters"
@@ -46,7 +46,7 @@
     doi: "https://doi.org/10.26434/chemrxiv-2023-5h4s7"
     journal: "chemrxiv-2023-5h4s7"
     year: 2023
-    paper_number: 21
+    paper_number: 22
     links:
       - address: null
         text: "&#128300; Under Review: Science Advances"
@@ -61,7 +61,7 @@
         text: "&#128300; Under Review: Journal of Open Source Software"
       - address: "https://github.com/x94carbone/GGCE"
         text: GitHub
-    paper_number: 20
+    paper_number: 21
 
 - year: 2023
   publications:
@@ -70,6 +70,10 @@
     title: "Harnessing Neural Networks for Elucidating X-ray Absorption Structure–Spectrum Relationships in Amorphous Carbon"
     doi: "https://doi.org/10.1021/acs.jpcc.3c02029"
     journal: "The Journal of Physical Chemistry C"
+    volume: 127
+    number: "16473"
+    year: 2023
+    paper_number: 20
 
   - authors: M. R. Carbone*, F. Meng*, C. Vorwerk, B. Maurer, F. Peschel, X. Qu, E. Stavitski, C. Draxl, J. Vinson & D. Lu
     title: "Lightshow: a Python package for generating computational x-ray absorption spectroscopy input files"
