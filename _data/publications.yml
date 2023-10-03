@@ -8,25 +8,15 @@
     year: 2023
     paper_number: 27
     links:
-      address: null
-      text: "Submitted: Joule"
-
-  - authors: W. Chen, Y. Ren, A. Kagawa, M. R. Carbone, S. Y.-C. Chen, X. Qu, S. Yoo, A. Clyde, A. Ramanathan, R. L. Stevens, H. J. J. van Dam & D. Lu
-    title: "Transferable Graph Neural Fingerprint Models for Quick Response to Future Bio-Threats"
-    doi: "https://doi.org/10.48550/arXiv.2308.01921"
-    journal: "arXiv.2308.01921"
-    year: 2023
-    paper_number: 26
-    links:
       - address: null
-        text: "Accepted: ICLMA 2023"
+        text: "Submitted: Joule"
 
   - authors: M. R. Carbone, H. J. Kim, C. Fernando, S. Yoo, D. Olds, H. Joress, B. DeCost, B. Ravel, Y. Zhang & P. M. Maffettone
     title: "Emulating Expert Insight: A Robust Strategy for Optimal Experimental Design"
     doi: "https://doi.org/10.48550/arXiv.2307.13871"
     journal: "arXiv.2307.13871"
     year: 2023
-    paper_number: 25
+    paper_number: 26
     links:
       - address: null
         text: "Under Review: Matter"
@@ -36,7 +26,7 @@
     doi: "https://doi.org/10.48550/arXiv.2306.16349"
     journal: "arXiv:2306.16349"
     year: 2023
-    paper_number: 24
+    paper_number: 25
     links:
       - address: null
         text: "Submitted: Chemical Science"
@@ -46,7 +36,7 @@
     doi: "https://doi.org/10.48550/arXiv.2306.11038"
     journal: "arXiv:2306.11038"
     year: 2023
-    paper_number: 23
+    paper_number: 24
     links:
       - address: null
         text: "Under Review: Physical Review E Letters"
@@ -56,7 +46,7 @@
     doi: "https://doi.org/10.26434/chemrxiv-2023-5h4s7"
     journal: "chemrxiv-2023-5h4s7"
     year: 2023
-    paper_number: 22
+    paper_number: 23
     links:
       - address: null
         text: "Under Review: Science Advances"
@@ -74,7 +64,17 @@
     links:
       - address: "https://github.com/x94carbone/GGCE"
         text: GitHub
+    paper_number: 22
+
+  - authors: W. Chen, Y. Ren, A. Kagawa, M. R. Carbone, S. Y.-C. Chen, X. Qu, S. Yoo, A. Clyde, A. Ramanathan, R. L. Stevens, H. J. J. van Dam & D. Lu
+    title: "Transferable Graph Neural Fingerprint Models for Quick Response to Future Bio-Threats"
+    doi: "https://doi.org/10.48550/arXiv.2308.01921"
+    journal: "arXiv.2308.01921"
+    year: 2023
     paper_number: 21
+    links:
+      - address: null
+        text: "Accepted: ICLMA 2023"
 
   - authors: H. Kwon, W. Sun, T. Hsu, W. Jeong, F. Aydin, S. Sharma, F. Meng, M. R. Carbone, X. Chen, D. Lu, L. F. Wan, M. H. Nielsen & T. A. Pham
     title: "Harnessing Neural Networks for Elucidating X-ray Absorption Structure–Spectrum Relationships in Amorphous Carbon"
