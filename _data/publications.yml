@@ -1,7 +1,17 @@
 - year: Preprints
   publications:
 
-  - authors: W. Chen, Y. Ren, A. Kagawa, M. R. Carbone, S. Y.-C. Chen, X. Qu, S. Yoo, A. Clyde, A. Ramanathan, R. L. Stevens, H. J. J. van Dam, D. Lu
+  - authors: C. Cao, M. R. Carbone, C. Komurcuoglu, J. S. Shekhawat, K. Sun, H. Guo, S. Liu, K. Chen, S.-M. Bak, Y. Du, C. Weiland, X. Tong, D. Steingart, S. Yoo, N. Artrith, A. Urban, D. Lu & F. Wang
+    title: "Atomic Insights into the Oxidative Degradation Mechanisms of Sulfide Solid Electrolytes"
+    doi: "https://doi.org/10.48550/arXiv.2310.00794"
+    journal: "arXiv:2310.00794"
+    year: 2023
+    paper_number: 27
+    links:
+      address: null
+      text: "Submitted: Joule"
+
+  - authors: W. Chen, Y. Ren, A. Kagawa, M. R. Carbone, S. Y.-C. Chen, X. Qu, S. Yoo, A. Clyde, A. Ramanathan, R. L. Stevens, H. J. J. van Dam & D. Lu
     title: "Transferable Graph Neural Fingerprint Models for Quick Response to Future Bio-Threats"
     doi: "https://doi.org/10.48550/arXiv.2308.01921"
     journal: "arXiv.2308.01921"
@@ -9,9 +19,9 @@
     paper_number: 26
     links:
       - address: null
-        text: "Submitted: ICLMA 2023"
+        text: "Accepted: ICLMA 2023"
 
-  - authors: M. R. Carbone, H. J. Kim, C. Fernando, S. Yoo, D. Olds, H. Joress, B. DeCost, B. Ravel, Y. Zhang, P. M. Maffettone
+  - authors: M. R. Carbone, H. J. Kim, C. Fernando, S. Yoo, D. Olds, H. Joress, B. DeCost, B. Ravel, Y. Zhang & P. M. Maffettone
     title: "Emulating Expert Insight: A Robust Strategy for Optimal Experimental Design"
     doi: "https://doi.org/10.48550/arXiv.2307.13871"
     journal: "arXiv.2307.13871"
@@ -19,7 +29,7 @@
     paper_number: 25
     links:
       - address: null
-        text: "Submitted: Matter"
+        text: "Under Review: Matter"
 
   - authors: M. R. Carbone, P. M. Maffettone, X. Qu, S. Yoo & D. Lu
     title: "Accurate, uncertainty-aware classification of molecular chemical motifs from multi-modal X-ray absorption spectroscopy"
@@ -29,7 +39,7 @@
     paper_number: 24
     links:
       - address: null
-        text: "&#128300; Under Review: Physical Review Research Letters"
+        text: "Submitted: Chemical Science"
 
   - authors: S. Goswami, K. Barros & M. R. Carbone
     title: "Physically interpretable approximations of many-body spectral functions"
@@ -39,7 +49,7 @@
     paper_number: 23
     links:
       - address: null
-        text: "&#128300; Under Review: Physical Review E Letters"
+        text: "Under Review: Physical Review E Letters"
 
   - authors: Y. Basdogan, D. R. Pollard, T. Shastry, M. R. Carbone, S. K. Kumar & Z.-G. Wang 
     title: "Machine Learning-Guided Discovery of Polymer Membranes for CO2 Separation"
@@ -49,22 +59,22 @@
     paper_number: 22
     links:
       - address: null
-        text: "&#128300; Under Review: Science Advances"
-
-  - authors: M. R. Carbone*, S. Fomichev*, A. J. Millis, M. Berciu, D. R. Reichman & J. Sous
-    title: "The Generalized Green's function Cluster Expansion: A Python package for simulating polarons"
-    doi: "https://arxiv.org/abs/arXiv:2210.12260"
-    journal: "arXiv:2210.12260"
-    year: 2022
-    links:
-      - address: "https://github.com/openjournals/joss-reviews/issues/4884"
-        text: "&#128300; Under Review: Journal of Open Source Software"
-      - address: "https://github.com/x94carbone/GGCE"
-        text: GitHub
-    paper_number: 21
+        text: "Under Review: Science Advances"
 
 - year: 2023
   publications:
+
+  - authors: M. R. Carbone*, S. Fomichev*, A. J. Millis, M. Berciu, D. R. Reichman & J. Sous
+    title: "The Generalized Green's function Cluster Expansion: A Python package for simulating polarons"
+    doi: "https://doi.org/10.21105/joss.05115"
+    journal: "The Journal of Open Source Software"
+    volume: 8
+    number: "5115"
+    year: 2023
+    links:
+      - address: "https://github.com/x94carbone/GGCE"
+        text: GitHub
+    paper_number: 21
 
   - authors: H. Kwon, W. Sun, T. Hsu, W. Jeong, F. Aydin, S. Sharma, F. Meng, M. R. Carbone, X. Chen, D. Lu, L. F. Wan, M. H. Nielsen & T. A. Pham
     title: "Harnessing Neural Networks for Elucidating X-ray Absorption Structure–Spectrum Relationships in Amorphous Carbon"
@@ -78,7 +88,7 @@
   - authors: M. R. Carbone*, F. Meng*, C. Vorwerk, B. Maurer, F. Peschel, X. Qu, E. Stavitski, C. Draxl, J. Vinson & D. Lu
     title: "Lightshow: a Python package for generating computational x-ray absorption spectroscopy input files"
     doi: "https://doi.org/10.21105/joss.05182"
-    journal: "Journal of Open Source Software"
+    journal: "The Journal of Open Source Software"
     volume: 8
     number: "5182"
     year: 2023
