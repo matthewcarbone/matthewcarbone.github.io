@@ -19,7 +19,7 @@
     paper_number: 26
     links:
       - address: null
-        text: "Under Review: Matter"
+        text: "Accpted: Matter"
 
   - authors: M. R. Carbone, P. M. Maffettone, X. Qu, S. Yoo & D. Lu
     title: "Accurate, uncertainty-aware classification of molecular chemical motifs from multi-modal X-ray absorption spectroscopy"
@@ -29,7 +29,7 @@
     paper_number: 25
     links:
       - address: null
-        text: "Submitted: Chemical Science"
+        text: "Under Review: The Journal of Physical Chemistry A"
 
   - authors: S. Goswami, K. Barros & M. R. Carbone
     title: "Physically interpretable approximations of many-body spectral functions"
@@ -39,7 +39,7 @@
     paper_number: 24
     links:
       - address: null
-        text: "Under Review: Physical Review E Letters"
+        text: "Under Review: Physical Review E"
 
   - authors: Y. Basdogan, D. R. Pollard, T. Shastry, M. R. Carbone, S. K. Kumar & Z.-G. Wang 
     title: "Machine Learning-Guided Discovery of Polymer Membranes for CO2 Separation"
