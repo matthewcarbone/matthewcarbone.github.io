@@ -1,7 +1,7 @@
 - year: Preprints
   publications:
 
-  - authors: C. Cao, M. R. Carbone, C. Komurcuoglu, J. S. Shekhawat, K. Sun, H. Guo, S. Liu, K. Chen, S.-M. Bak, Y. Du, C. Weiland, X. Tong, D. Steingart, S. Yoo, N. Artrith, A. Urban, D. Lu & F. Wang
+  - authors: C. Cao*, M. R. Carbone*, C. Komurcuoglu, J. S. Shekhawat, K. Sun, H. Guo, S. Liu, K. Chen, S.-M. Bak, Y. Du, C. Weiland, X. Tong, D. Steingart, S. Yoo, N. Artrith, A. Urban, D. Lu & F. Wang
     title: "Atomic Insights into the Oxidative Degradation Mechanisms of Sulfide Solid Electrolytes"
     doi: "https://doi.org/10.48550/arXiv.2310.00794"
     journal: "arXiv:2310.00794"
@@ -19,7 +19,7 @@
     paper_number: 26
     links:
       - address: null
-        text: "Accpted: Matter"
+        text: "Accepted: Matter"
 
   - authors: M. R. Carbone, P. M. Maffettone, X. Qu, S. Yoo & D. Lu
     title: "Accurate, uncertainty-aware classification of molecular chemical motifs from multi-modal X-ray absorption spectroscopy"
