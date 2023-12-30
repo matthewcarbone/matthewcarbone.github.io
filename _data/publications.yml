@@ -9,24 +9,14 @@
     paper_number: 27
     links:
       - address: null
-        text: "Submitted: Joule"
-
-  - authors: M. R. Carbone, H. J. Kim, C. Fernando, S. Yoo, D. Olds, H. Joress, B. DeCost, B. Ravel, Y. Zhang & P. M. Maffettone
-    title: "Emulating Expert Insight: A Robust Strategy for Optimal Experimental Design"
-    doi: "https://doi.org/10.48550/arXiv.2307.13871"
-    journal: "arXiv.2307.13871"
-    year: 2023
-    paper_number: 26
-    links:
-      - address: null
-        text: "Accepted: Matter"
+        text: "Under Review: Joule"
 
   - authors: M. R. Carbone, P. M. Maffettone, X. Qu, S. Yoo & D. Lu
     title: "Accurate, uncertainty-aware classification of molecular chemical motifs from multi-modal X-ray absorption spectroscopy"
     doi: "https://doi.org/10.48550/arXiv.2306.16349"
     journal: "arXiv:2306.16349"
     year: 2023
-    paper_number: 25
+    paper_number: 26
     links:
       - address: null
         text: "Under Review: The Journal of Physical Chemistry A"
@@ -36,23 +26,40 @@
     doi: "https://doi.org/10.48550/arXiv.2306.11038"
     journal: "arXiv:2306.11038"
     year: 2023
-    paper_number: 24
+    paper_number: 25
     links:
       - address: null
-        text: "Under Review: Physical Review E"
+        text: "Accepted: Physical Review E"
 
   - authors: Y. Basdogan, D. R. Pollard, T. Shastry, M. R. Carbone, S. K. Kumar & Z.-G. Wang 
     title: "Machine Learning-Guided Discovery of Polymer Membranes for CO2 Separation"
     doi: "https://doi.org/10.26434/chemrxiv-2023-5h4s7"
     journal: "chemrxiv-2023-5h4s7"
     year: 2023
-    paper_number: 23
-    links:
-      - address: null
-        text: "Under Review: Science Advances"
+    paper_number: 24
+    # links:
+    #   - address: null
+    #     text: "Under Review: Science Advances"
+      
+
+  # - authors: T. Shastry, Y. Basdogan, Z.-G. Wang, S. K. Kumar & M. R. Carbone 
+  #   title: "Machine Learning-Based Discovery of Molecular Descriptors that Control Polymer Gas Permeation" 
+  #   
 
 - year: 2023
   publications:
+
+  - authors: M. R. Carbone, H. J. Kim, C. Fernando, S. Yoo, D. Olds, H. Joress, B. DeCost, B. Ravel, Y. Zhang & P. M. Maffettone
+    title: "Flexible formulation of value for experiment interpretation and design"
+    doi: "https://doi.org/10.1016/j.matt.2023.11.012"
+    journal: "Matter"
+    volume: 7
+    number: 1
+    year: 2023
+    paper_number: 23
+    links:
+      - address: "https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=936908" 
+        text: "PDF"
 
   - authors: M. R. Carbone*, S. Fomichev*, A. J. Millis, M. Berciu, D. R. Reichman & J. Sous
     title: "The Generalized Green's function Cluster Expansion: A Python package for simulating polarons"
