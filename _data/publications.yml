@@ -9,7 +9,7 @@
     paper_number: 27
     links:
       - address: null
-        text: "Under Review: Joule"
+        text: "Under Review: Cell Reports Physical Science"
 
   - authors: M. R. Carbone, P. M. Maffettone, X. Qu, S. Yoo & D. Lu
     title: "Accurate, uncertainty-aware classification of molecular chemical motifs from multi-modal X-ray absorption spectroscopy"
@@ -21,22 +21,12 @@
       - address: null
         text: "Under Review: The Journal of Physical Chemistry A"
 
-  - authors: S. Goswami, K. Barros & M. R. Carbone
-    title: "Physically interpretable approximations of many-body spectral functions"
-    doi: "https://doi.org/10.48550/arXiv.2306.11038"
-    journal: "arXiv:2306.11038"
-    year: 2023
-    paper_number: 25
-    links:
-      - address: null
-        text: "Accepted: Physical Review E"
-
   - authors: Y. Basdogan, D. R. Pollard, T. Shastry, M. R. Carbone, S. K. Kumar & Z.-G. Wang 
     title: "Machine Learning-Guided Discovery of Polymer Membranes for CO2 Separation"
     doi: "https://doi.org/10.26434/chemrxiv-2023-5h4s7"
     journal: "chemrxiv-2023-5h4s7"
     year: 2023
-    paper_number: 24
+    paper_number: 25
     # links:
     #   - address: null
     #     text: "Under Review: Science Advances"
@@ -45,6 +35,21 @@
   # - authors: T. Shastry, Y. Basdogan, Z.-G. Wang, S. K. Kumar & M. R. Carbone 
   #   title: "Machine Learning-Based Discovery of Molecular Descriptors that Control Polymer Gas Permeation" 
   #   
+
+- year: 2024
+  publications:
+
+  - authors: S. Goswami, K. Barros & M. R. Carbone
+    title: "Physically interpretable approximations of many-body spectral functions"
+    doi: "https://doi.org/10.1103/PhysRevE.109.015302"
+    journal: "Physical Review E"
+    volume: 109
+    number: 015302
+    year: 2023
+    paper_number: 24
+    links:
+        - address: "docs/PhysRevE.109.015302.pdf"
+          text: "PDF"
 
 - year: 2023
   publications:
