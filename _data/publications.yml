@@ -44,8 +44,8 @@
     doi: "https://doi.org/10.1103/PhysRevE.109.015302"
     journal: "Physical Review E"
     volume: 109
-    number: 015302
-    year: 2023
+    number: "015302"
+    year: 2024
     paper_number: 24
     links:
         - address: "docs/PhysRevE.109.015302.pdf"
