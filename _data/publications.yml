@@ -51,20 +51,21 @@
         - address: "docs/PhysRevE.109.015302.pdf"
           text: "PDF"
 
-- year: 2023
-  publications:
-
   - authors: M. R. Carbone, H. J. Kim, C. Fernando, S. Yoo, D. Olds, H. Joress, B. DeCost, B. Ravel, Y. Zhang & P. M. Maffettone
     title: "Flexible formulation of value for experiment interpretation and design"
     doi: "https://doi.org/10.1016/j.matt.2023.11.012"
     journal: "Matter"
+    # VOLUME 7, ISSUE 2, P685-696, FEBRUARY 07, 2024
     volume: 7
-    number: 1
-    year: 2023
+    number: "685"
+    year: 2024
     paper_number: 23
     links:
       - address: "https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=936908" 
         text: "PDF"
+
+- year: 2023
+  publications:
 
   - authors: M. R. Carbone*, S. Fomichev*, A. J. Millis, M. Berciu, D. R. Reichman & J. Sous
     title: "The Generalized Green's function Cluster Expansion: A Python package for simulating polarons"
