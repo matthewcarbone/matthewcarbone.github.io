@@ -6,7 +6,7 @@
     doi: "https://doi.org/10.48550/arXiv.2310.00794"
     journal: "arXiv:2310.00794"
     year: 2023
-    paper_number: 27
+    paper_number: 28
     links:
       - address: null
         text: "Under Review: Cell Reports Physical Science"
@@ -16,28 +16,29 @@
     doi: "https://doi.org/10.48550/arXiv.2306.16349"
     journal: "arXiv:2306.16349"
     year: 2023
-    paper_number: 26
+    paper_number: 27
     links:
       - address: null
-        text: "Under Review: The Journal of Physical Chemistry A"
+        text: "Accepted: The Journal of Physical Chemistry A"
 
   - authors: Y. Basdogan, D. R. Pollard, T. Shastry, M. R. Carbone, S. K. Kumar & Z.-G. Wang 
     title: "Machine Learning-Guided Discovery of Polymer Membranes for CO2 Separation"
     doi: "https://doi.org/10.26434/chemrxiv-2023-5h4s7"
     journal: "chemrxiv-2023-5h4s7"
     year: 2023
-    paper_number: 25
-    # links:
-    #   - address: null
-    #     text: "Under Review: Science Advances"
-      
-
-  # - authors: T. Shastry, Y. Basdogan, Z.-G. Wang, S. K. Kumar & M. R. Carbone 
-  #   title: "Machine Learning-Based Discovery of Molecular Descriptors that Control Polymer Gas Permeation" 
-  #   
+    paper_number: 26
 
 - year: 2024
   publications:
+  
+  - authors: T. Shastry, Y. Basdogan, Z.-G. Wang, S. K. Kumar & M. R. Carbone
+    title: "Machine learning-based discovery of molecular descriptors that control polymer gas permeation" 
+    doi: https://doi.org/10.1016/j.memsci.2024.122563
+    journal: The Journal of Membrane Science 
+    volume: "in press"
+    year: 2024
+    paper_number: 25
+
 
   - authors: S. Goswami, K. Barros & M. R. Carbone
     title: "Physically interpretable approximations of many-body spectral functions"
