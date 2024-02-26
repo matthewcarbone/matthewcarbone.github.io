@@ -34,8 +34,9 @@
   - authors: T. Shastry, Y. Basdogan, Z.-G. Wang, S. K. Kumar & M. R. Carbone
     title: "Machine learning-based discovery of molecular descriptors that control polymer gas permeation" 
     doi: https://doi.org/10.1016/j.memsci.2024.122563
-    journal: The Journal of Membrane Science 
-    volume: "in press"
+    journal: The Journal of Membrane Science
+    volume: 697
+    number: "122563"
     year: 2024
     paper_number: 25
 
@@ -56,7 +57,6 @@
     title: "Flexible formulation of value for experiment interpretation and design"
     doi: "https://doi.org/10.1016/j.matt.2023.11.012"
     journal: "Matter"
-    # VOLUME 7, ISSUE 2, P685-696, FEBRUARY 07, 2024
     volume: 7
     number: "685"
     year: 2024
