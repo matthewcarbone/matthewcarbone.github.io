@@ -19,6 +19,11 @@
 
           {{ content }}
 
+          {% if page.bnl_disclaimer == true %}
+                <hr>
+                <p class="small">Disclaimer: Matthew Carbone is a staff scientist at Brookhaven National Laboratory at the time of the writing of this post. The views expressed here are those of the individual personnel quoted and are not the views of Brookhaven Science Associates, LLC or the United States Department of Energy.<p>
+          {% endif %}
+
         </div>
       </div>
   </body>
