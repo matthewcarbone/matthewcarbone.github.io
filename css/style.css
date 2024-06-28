@@ -24,17 +24,24 @@ h1#page_header
   font-size: 2rem;
 }
 
+h1
+{
+font-weight: 250;
+text-align: left;
+font-size: 1.5rem;
+}
+
 h2
 {
-  font-weight: 250;
-  text-align: center;
+  font-weight: 200;
+  text-align: left;
   font-size: 1.5rem;
 }
 
 h3
 {
   font-weight: 150;
-  text-align: center;
+  text-align: left;
   font-size: 1.5rem;
 }
 
