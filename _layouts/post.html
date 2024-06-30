@@ -16,7 +16,15 @@
           <h1 id="page_header">
                 {{ page.title }}
           </h1>
+            
+          <center>
+                    {{ page.date | date: "%d %B %Y" }}
+          </center>
 
+          <center>
+                    <p>&#9670 &#9670 &#9670</p>
+          </center>
+          
           {{ content }}
 
           {% if page.bnl_disclaimer == true %}

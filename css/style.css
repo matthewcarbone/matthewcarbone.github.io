@@ -95,9 +95,9 @@ ol li {
 /* Images ------------------------------------------------------------------ */
 
 img#headshot {
-  float: left;
-  margin-left: 0em;
-  margin-right: 1em;
+  float: center;
+  margin-left: auto;
+  margin-right: auto;
   width: 35%;
   max-width: 100%;
   display: block;
