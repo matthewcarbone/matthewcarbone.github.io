@@ -5,13 +5,13 @@ permalink: /blog.html
 ---
 
 <h1 id="page_header">
-  Blog
+    Blog
 </h1>
 
 <ul>
     {% for post in site.posts %}
-        <li>
+    <li>
         <a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date: "%d %B %Y" }})
-        </li>
+    </li>
     {% endfor %}
 </ul>

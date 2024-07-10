@@ -1,38 +1,38 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="/css/style.css" rel="stylesheet">
-  </head>
+    <head>
+        <meta charset="utf-8">
+        <title>{{ page.title }}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="/css/style.css" rel="stylesheet">
+    </head>
 
-  <body>
-      <div style="overflow:auto">
-        <div class="main">
+    <body>
+        <div style="overflow:auto">
+            <div class="main">
 
-          {% include navigation.html %}
+                {% include navigation.html %}
 
-          <h1 id="page_header">
-                {{ page.title }}
-          </h1>
-            
-          <center>
+                <h1 id="page_header">
+                    {{ page.title }}
+                </h1>
+
+                <center>
                     {{ page.date | date: "%d %B %Y" }}
-          </center>
+                </center>
 
-          <center>
+                <center>
                     <p>&#9670 &#9670 &#9670</p>
-          </center>
-          
-          {{ content }}
+                </center>
 
-          {% if page.bnl_disclaimer == true %}
+                {{ content }}
+
+                {% if page.bnl_disclaimer == true %}
                 <hr>
                 <p class="small">Disclaimer: Matthew Carbone is a staff scientist at Brookhaven National Laboratory at the time of the writing of this post. The views expressed here are those of the individual personnel quoted and are not the views of Brookhaven Science Associates, LLC or the United States Department of Energy.<p>
-          {% endif %}
+                    {% endif %}
 
+            </div>
         </div>
-      </div>
-  </body>
+    </body>
 </html>
