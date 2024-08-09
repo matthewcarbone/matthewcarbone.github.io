@@ -13,12 +13,17 @@ permalink: /publications.html
     * Indicates equally contributing authors.
 </p>
 
+{% assign total = 0 %}
+{% for section in site.data.publications %}
+    {% assign total = total | plus: section.publications.size %}
+{% endfor %}
 
 {% for section in site.data.publications %}
 <h2> {{ section.year }} </h2>
 <ol>
     {% for pub in section.publications %}
-    <li value="{{ pub.paper_number }}">
+    {% assign reverse_index = total | minus: forloop.index0 %}
+    <li value="{{ reverse_index }}">
         <span class="article">
 
             {% capture authors %}{{ pub.authors | replace: "M. R. Carbone", '<span class="article_author_highlight">M. R. Carbone</span>' }}{% endcapture %}
@@ -43,15 +48,15 @@ permalink: /publications.html
             {% endif %}
 
             {% for link in pub.links %}
-            {% if link.address != null %}
-            [<a href="{{ link.address }}">{{ link.text }}</a>]
-            {% else %}
-            [{{ link.text }}]
-            {% endif %}
+                {% if link.address != null %}
+                [<a href="{{ link.address }}">{{ link.text }}</a>]
+                {% else %}
+                [{{ link.text }}]
+                {% endif %}
             {% endfor %}
         </span>
     </li>
     {% endfor %}
 </ol>
-
+{% assign total = total | minus: section.publications.size %}
 {% endfor %}
