@@ -14,7 +14,7 @@
     title: "Spectroscopy-Guided Discovery of Three-Dimensional Structures of Disordered Materials with Diffusion Models"
     doi: "https://doi.org/10.48550/arxiv.2312.05472"
     journal: "arXiv:2312.05472"
-    year: 2023
+    year: 2024
     links:
       - address: null
         text: "Under review: Machine Learning Science and Technology"
@@ -26,12 +26,9 @@
     title: "Machine Learning-Guided Discovery of Polymer Membranes for CO2 Separation"
     doi: "https://doi.org/10.1016/j.memsci.2024.123169" 
     journal: "Journal of Membrane Science"
-    volume: tbd
-    number: tbd
+    volume: "712"
+    number: "123169"
     year: 2024
-    links:
-      - address: null
-        text: "In press"
 
   - authors: C. Cao*, M. R. Carbone*, C. Komurcuoglu, J. S. Shekhawat, K. Sun, H. Guo, S. Liu, K. Chen, S.-M. Bak, Y. Du, C. Weiland, X. Tong, D. Steingart, S. Yoo, N. Artrith, A. Urban, D. Lu & F. Wang
     title: "Atomic Insights into the Oxidative Degradation Mechanisms of Sulfide Solid Electrolytes"
