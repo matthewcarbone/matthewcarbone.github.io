@@ -19,6 +19,17 @@
       - address: null
         text: "Under review: Machine Learning Science and Technology"
 
+- year: 2025
+  publications:
+
+  - authors: G. Ignacz, L. Bader, A. K. Beke, Y. Ghunaim, T. Shastry, H. Vovusha, M. R. Carbone, B. Ghanem & G. Szekely
+    title: "Machine learning for the advancement of membrane science and technology: A critical review"
+    doi: "https://doi.org/10.1016/j.memsci.2024.123256"
+    journal: "Journal of Membrane Science"
+    volume: "713"
+    number: "123256"
+    year: 2025
+
 - year: 2024
   publications:
 
