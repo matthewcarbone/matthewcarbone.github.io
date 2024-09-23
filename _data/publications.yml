@@ -1,15 +1,6 @@
 - year: Preprints
   publications:
 
-  # - authors: R. Dongol, A. Mukherjee, J. Bai, H. J. J. van Dam, M. R. Carbone, E. F. Abell, H. Zhong, A. Tayal, L. Ma, O. Kahvecioglu, K. Z. Pupek, D. Lu, K. Rajan & F. Wang
-  #   title: "In situ Metrology Boosted by Automated Data Analysis for Real-time Calcination Process Monitoring and Control"
-  #   doi: null
-  #   year: 2024
-  #   paper_number: 30
-  #   links:
-  #       - address: null
-  #         text: "Under review: Small Methods"
-
   - authors: H. Kwon, T. Hsu, W. Sun, W. Jeong, F. Aydin, J. Chapman, X. Chen, M. R. Carbone, D. Lu, F. Zhou & T. A. Pham
     title: "Spectroscopy-Guided Discovery of Three-Dimensional Structures of Disordered Materials with Diffusion Models"
     doi: "https://doi.org/10.48550/arxiv.2312.05472"
@@ -32,6 +23,14 @@
 
 - year: 2024
   publications:
+
+  - authors: R. Dongol, A. Mukherjee, J. Bai, H. J. J. van Dam, M. R. Carbone, E. F. Abell, H. Zhong, A. Tayal, L. Ma, O. Kahvecioglu, K. Z. Pupek, D. Lu, K. Rajan & F. Wang
+    title: "In situ Synchrotron X‐ray Metrology Boosted by Automated Data Analysis for Real‐time Monitoring of Cathode Calcination"
+    doi: "https://doi.org/10.1002/smtd.202400181"
+    journal: "Small Methods"
+    volume: "9"
+    number: "2400181"
+    year: 2024
 
   - authors: Y. Basdogan, D. R. Pollard, T. Shastry, M. R. Carbone, S. K. Kumar & Z.-G. Wang 
     title: "Machine Learning-Guided Discovery of Polymer Membranes for CO2 Separation"
