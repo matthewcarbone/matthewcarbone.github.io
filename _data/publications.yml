@@ -20,6 +20,8 @@
     volume: "713"
     number: "123256"
     year: 2025
+    corresponding:
+    - "G. Szekely"
 
 - year: 2024
   publications:
@@ -31,6 +33,9 @@
     volume: "9"
     number: "2400181"
     year: 2024
+    corresponding:
+    - "K. Rajan"
+    - "F. Wang"
 
   - authors: Y. Basdogan, D. R. Pollard, T. Shastry, M. R. Carbone, S. K. Kumar & Z.-G. Wang 
     title: "Machine Learning-Guided Discovery of Polymer Membranes for CO2 Separation"
@@ -39,6 +44,9 @@
     volume: "712"
     number: "123169"
     year: 2024
+    corresponding:
+    - "Y. Basdogan"
+    - "Z.-G. Wang"
 
   - authors: C. Cao*, M. R. Carbone*, C. Komurcuoglu, J. S. Shekhawat, K. Sun, H. Guo, S. Liu, K. Chen, S.-M. Bak, Y. Du, C. Weiland, X. Tong, D. Steingart, S. Yoo, N. Artrith, A. Urban, D. Lu & F. Wang
     title: "Atomic Insights into the Oxidative Degradation Mechanisms of Sulfide Solid Electrolytes"
@@ -47,6 +55,11 @@
     volume: 5
     number: "101909"
     year: 2024
+    corresponding:
+    - "A. Urban"
+    - "F. Wang"
+    - "D. Lu"
+
 
   - authors: M. R. Carbone, P. M. Maffettone, X. Qu, S. Yoo & D. Lu
     title: "Accurate, uncertainty-aware classification of molecular chemical motifs from multi-modal X-ray absorption spectroscopy"
@@ -55,6 +68,9 @@
     volume: 128
     number: "1948"
     year: 2024
+    corresponding:
+    - "M. R. Carbone"
+    - "D. Lu"
 
   - authors: T. Shastry, Y. Basdogan, Z.-G. Wang, S. K. Kumar & M. R. Carbone
     title: "Machine learning-based discovery of molecular descriptors that control polymer gas permeation" 
@@ -63,6 +79,10 @@
     volume: 697
     number: "122563"
     year: 2024
+    corresponding:
+    - "T. Shastry"
+    - "M. R. Carbone"
+    - "S. K. Kumar"
 
   - authors: S. Goswami, K. Barros & M. R. Carbone
     title: "Physically interpretable approximations of many-body spectral functions"
@@ -74,6 +94,8 @@
     links:
         - address: "docs/PhysRevE.109.015302.pdf"
           text: "PDF"
+    corresponding:
+    - "S. Goswami"
 
   - authors: M. R. Carbone, H. J. Kim, C. Fernando, S. Yoo, D. Olds, H. Joress, B. DeCost, B. Ravel, Y. Zhang & P. M. Maffettone
     title: "Flexible formulation of value for experiment interpretation and design"
@@ -85,6 +107,10 @@
     links:
       - address: "https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=936908" 
         text: "PDF"
+    corresponding:
+    - "M. R. Carbone"
+    - "Y. Zhang"
+    - "P. M. Maffettone"
 
 - year: 2023
   publications:
@@ -99,8 +125,11 @@
     links:
       - address: "https://github.com/x94carbone/GGCE"
         text: GitHub
+    corresponding:
+    - "M. R. Carbone"
+    - "J. Sous"
 
-  - authors: W. Chen, Y. Ren, A. Kagawa, M. R. Carbone, S. Y.-C. Chen, X. Qu, S. Yoo, A. Clyde, A. Ramanathan, R. L. Stevens, H. J. J. van Dam & D. Lu
+  - authors: W. Chen*, Y. Ren*, A. Kagawa, M. R. Carbone, S. Y.-C. Chen, X. Qu, S. Yoo, A. Clyde, A. Ramanathan, R. L. Stevens, H. J. J. van Dam & D. Lu
     title: "Transferable Graph Neural Fingerprint Models for Quick Response to Future Bio-Threats"
     doi: "https://doi.org/10.48550/arXiv.2308.01921"
     journal: "arXiv.2308.01921"
@@ -109,6 +138,7 @@
       - address: null
         text: "Accepted: ICLMA 2023"
 
+
   - authors: H. Kwon, W. Sun, T. Hsu, W. Jeong, F. Aydin, S. Sharma, F. Meng, M. R. Carbone, X. Chen, D. Lu, L. F. Wan, M. H. Nielsen & T. A. Pham
     title: "Harnessing Neural Networks for Elucidating X-ray Absorption Structure–Spectrum Relationships in Amorphous Carbon"
     doi: "https://doi.org/10.1021/acs.jpcc.3c02029"
@@ -116,6 +146,9 @@
     volume: 127
     number: "16473"
     year: 2023
+    corresponding:
+    - "H. Kwon"
+    - "T. A. Pham"
 
   - authors: M. R. Carbone*, F. Meng*, C. Vorwerk, B. Maurer, F. Peschel, X. Qu, E. Stavitski, C. Draxl, J. Vinson & D. Lu
     title: "Lightshow: a Python package for generating computational x-ray absorption spectroscopy input files"
@@ -127,6 +160,9 @@
     links:
       - address: "https://github.com/AI-multimodal/Lightshow"
         text: GitHub
+    corresponding:
+    - "M. R. Carbone"
+    - "F. Meng"
 
   - authors: H. Guo*, M. R. Carbone*, C. Cao, J. Qu, Y. Du, S. Bak, C. Weiland, F. Wang, S. Yoo, N. Artrith, A. Urban & D. Lu
     title: "Simulated sulfur K-edge X-ray absorption spectroscopy database of lithium thiophosphate solid electrolytes"
@@ -135,6 +171,12 @@
     volume: 10
     number: "349"
     year: 2023
+    corresponding:
+    - "H. Guo"
+    - "M. R. Carbone"
+    - "N. Artrith"
+    - "A. Urban"
+    - "D. Lu"
 
   - authors: J. Lee, M. R. Carbone & W. Yin
     title: "Machine-learning the spectral function of a hole in a quantum antiferromagnet"
@@ -146,6 +188,8 @@
     links:
       - address: docs/PhysRevB.107.205132.pdf
         text: PDF
+    corresponding:
+    - "W. Yin"
 
   - authors: Z. Liang, M. R. Carbone, W. Chen, F. Meng, E. Stavitski, D. Lu, M. S. Hybertsen & X. Qu
     title: "Decoding Structure-Spectrum Relationships with Physically Organized Latent Spaces"
@@ -157,6 +201,10 @@
     links:
       - address: docs/PhysRevMaterials.7.053802.pdf
         text: PDF
+    corresponding:
+    - "D. Lu"
+    - "M. S. Hybertsen"
+    - "X. Qu"
 
   - authors: A. Ghose, M. Segal, F. Meng, Z. Liang, M. S. Hybertsen, X. Qu, E. Stavitski, S. Yoo, D. Lu & M. R. Carbone
     title: Uncertainty-aware predictions of molecular X-ray absorption spectra using neural network ensembles
@@ -165,6 +213,9 @@
     volume: 5
     number: "013180"
     year: 2023
+    corresponding:
+    - "D. Lu"
+    - "M. R. Carbone"
 
 - year: 2022
   publications:
@@ -177,6 +228,9 @@
     links:
       - address: null
         text: "Presented at the 36th Conference on Neural Information Processing Systems (NeurIPS 2022)"
+    corresponding:
+    - "P. M. Maffettone"
+    - "D. Olds"
 
   - authors: M. R. Carbone
     title: "When not to use machine learning: A perspective on potential and limitations"
@@ -185,6 +239,8 @@
     volume: 47
     number: "968–974"
     year: 2022
+    corresponding:
+    - "M. R. Carbone"
 
   - authors: M. R. Carbone & M. Baity-Jesi
     title: Competition between Barrier- and Entropy-Driven Activation in Glasses
@@ -196,6 +252,8 @@
     links:
       - address: docs/10.pdf
         text: PDF
+    corresponding:
+    - "M. Baity-Jesi"
 
   - authors: S. B. Torrisi, J. M. Gregoire, J. Yano, M. R. Carbone, C. P. Gomes, L. Hung & S. K. Suram
     title: "Accelerated Materials Discovery: How to Use Artificial Intelligence to Speed Up Development / Chapter 3: Artificial intelligence for materials spectroscopy"
@@ -217,6 +275,8 @@
     links:
       - address: docs/09.pdf
         text: PDF
+    corresponding:
+    - "C. Miles"
 
   - authors: M. R. Carbone, A. J. Millis, D. R. Reichman & J. Sous
     title: "Bond Peierls polaron: Moderate mass enhancement and current carrying ground state"
@@ -228,6 +288,11 @@
     links:
       - address: docs/08.pdf
         text: PDF
+    corresponding:
+    - "M. R. Carbone"
+    - "J. Sous"
+    - "A. J. Millis"
+    - "D. R. Reichman"
 
   - authors: M. R. Carbone, D. R. Reichman & J. Sous
     title: Numerically Exact Generalized Green’s Function Cluster Expansions for Electron-Phonon Problems
@@ -239,6 +304,9 @@
     links:
       - address: docs/07.pdf
         text: PDF
+    corresponding:
+      - "M. R. Carbone"
+      - "J. Sous"
 
   - authors: E. J. Sturm*, M. R. Carbone*, D. Lu, A. Weichselbaum & R. M. Konik
     title: Computing Anderson Impurity Model Spectra Using Machine Learning
@@ -250,6 +318,8 @@
     links:
       - address: docs/06.pdf
         text: PDF
+    corresponding:
+      - "R. M. Konik"
 
 - year: 2020
   publications:
@@ -261,6 +331,10 @@
     volume: 6
     number: "109"
     year: 2020
+    corresponding:
+      - "S. B. Torrisi"
+      - "S. K. Suram"
+      - "L. Hung"
 
   - authors: M. R. Carbone, M. Z. Mayers & D. R. Reichman
     title: Microscopic model of the doping dependence of linewidths in monolayer transition metal dichalcogenides
@@ -273,6 +347,8 @@
       - address: docs/04.pdf
         text: PDF
     notes: Part of a special edition on 2D materials
+    corresponding:
+      - "M. R. Carbone"
 
   - authors: M. R. Carbone, V. Astuti & M. Baity-Jesi
     title: Effective Trap-like Activated Dynamics in a Continuous Landscape
@@ -284,6 +360,8 @@
     links:
       - address: docs/03.pdf
         text: PDF
+    corresponding:
+      - "M. R. Carbone"
 
   - authors: M. R. Carbone, M. Topsakal, D. Lu & S. Yoo
     title: Machine-learning X-ray absorption spectra to quantitative accuracy
@@ -295,6 +373,10 @@
     links:
       - address: docs/02.pdf
         text: PDF
+    corresponding:
+      - "M. Topsakal"
+      - "D. Lu"
+      - "S. Yoo"
 
 - year: "<2020"
   publications:
@@ -310,6 +392,9 @@
       - address: docs/01.pdf
         text: PDF
     notes: Editors' suggestion
+    corresponding:
+      - "M. Topsakal"
+      - "D. Lu"
 
   - authors: M. R. Carbone, G. A. Centola, A. Haas, K. P. McClelland, M. D. Moskowitz, A. M. Verderame, M. S. Olezeski, L. J. Papa, S. C. M. Dorn, W. W. Brennessel & D. J. Weix
     title: "Crystal structures of (RS)-N-[(1R,2S)-2-benzyloxy-1-(2,6-dimethylphenyl)propyl]-2-methylpropane-2-sulfinamide and (RS)-N-[(1S,2R)-2-benzyloxy-1-(2,4,6-trimethylphenyl)propyl]-2-methylpropane-2-sulfinamide: two related protected 1,2-amino alcohols"
@@ -318,3 +403,5 @@
     volume: E70
     number: "365-369"
     year: 2014
+    corresponding:
+      - D. J. Weix

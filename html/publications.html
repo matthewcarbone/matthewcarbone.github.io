@@ -10,7 +10,7 @@ permalink: /publications.html
 <p>
     For an automatically updating list of citable work, please of course see my <a href="https://scholar.google.com/citations?user=DAyj0b8AAAAJ&hl=en">Google Scholar</a> (as I only periodically update my site). I do host PDF's here when possible, though!
     You can find a copy of my dissertation <a href="docs/dissertation.pdf">here</a>.
-    * Indicates equally contributing authors.
+    * Indicates equally contributing authors. <sup style="font-size: 0.6em;">†</sup> Indicates corresponding authors.
 </p>
 
 {% assign total = 0 %}
@@ -26,9 +26,23 @@ permalink: /publications.html
     <li value="{{ reverse_index }}">
         <span class="article">
 
-            {% capture authors %}{{ pub.authors | replace: "M. R. Carbone", '<span class="article_author_highlight">M. R. Carbone</span>' }}{% endcapture %}
+            {% capture authors %}
+                {% assign highlighted_authors = pub.authors %}
+                
+                <!-- Iterate through the corresponding authors list -->
+                {% for corresponding_author in pub.corresponding %}
+                    {% assign corresponding_with_dagger = corresponding_author | append: '<sup style="font-size: 0.6em;">†</sup>' %}
+                    <!-- Replace each corresponding author's name with their name followed directly by the smaller superscript dagger -->
+                    {% assign highlighted_authors = highlighted_authors | replace: corresponding_author, corresponding_with_dagger | strip %}
+                {% endfor %}
 
-            {{ authors }}. <em> <a href="{{ pub.doi }}">{{ pub.title }}.</a> </em>
+                <!-- If you also want to highlight M. R. Carbone -->
+                {% assign highlighted_authors = highlighted_authors | replace: "M. R. Carbone", '<span class="article_author_highlight">M. R. Carbone</span>' %}
+                
+                {{ highlighted_authors | strip}}
+            {% endcapture %}
+
+            {{ authors | strip}}. <em> <a href="{{ pub.doi }}">{{ pub.title }}.</a> </em>
 
             <!-- If the publication is an arXiv preprint -->
             {% if pub.journal contains "arXiv" %}
