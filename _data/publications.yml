@@ -1,6 +1,16 @@
 - year: Preprints
   publications:
 
+  - authors: S. R. Kharel, F. Meng, X. Qu, M. R. Carbone & D. Lu
+    title: "A Universal Deep Learning Framework for Materials X-ray Absorption Spectra"
+    doi: "https://doi.org/10.48550/arXiv.2409.19552"
+    journal: "arXiv:2409.19552"
+    year: 2024
+    corresponding:
+    - "S. R. Kharel"
+    - "M. R. Carbone"
+    - "D. Lu"
+
   - authors: H. Kwon, T. Hsu, W. Sun, W. Jeong, F. Aydin, J. Chapman, X. Chen, M. R. Carbone, D. Lu, F. Zhou & T. A. Pham
     title: "Spectroscopy-Guided Discovery of Three-Dimensional Structures of Disordered Materials with Diffusion Models"
     doi: "https://doi.org/10.48550/arxiv.2312.05472"
@@ -8,7 +18,7 @@
     year: 2024
     links:
       - address: null
-        text: "Under review: Machine Learning Science and Technology"
+        text: "Accepted: Machine Learning Science and Technology"
 
 - year: 2025
   publications:
