@@ -57,6 +57,7 @@
     corresponding:
     - "Y. Basdogan"
     - "Z.-G. Wang"
+    notes: Editors' choice
 
   - authors: C. Cao*, M. R. Carbone*, C. Komurcuoglu, J. S. Shekhawat, K. Sun, H. Guo, S. Liu, K. Chen, S.-M. Bak, Y. Du, C. Weiland, X. Tong, D. Steingart, S. Yoo, N. Artrith, A. Urban, D. Lu & F. Wang
     title: "Atomic Insights into the Oxidative Degradation Mechanisms of Sulfide Solid Electrolytes"
@@ -388,9 +389,8 @@
       - "D. Lu"
       - "S. Yoo"
 
-- year: "<2020"
+- year: "2019"
   publications:
-
   - authors: M. R. Carbone, S. Yoo, M. Topsakal & D. Lu
     title: Classification of local chemical environments from x-ray absorption spectra using supervised machine learning
     doi: "https://doi.org/10.1103/PhysRevMaterials.3.033604"
@@ -406,6 +406,8 @@
       - "M. Topsakal"
       - "D. Lu"
 
+- year: "2014"
+  publications:
   - authors: M. R. Carbone, G. A. Centola, A. Haas, K. P. McClelland, M. D. Moskowitz, A. M. Verderame, M. S. Olezeski, L. J. Papa, S. C. M. Dorn, W. W. Brennessel & D. J. Weix
     title: "Crystal structures of (RS)-N-[(1R,2S)-2-benzyloxy-1-(2,6-dimethylphenyl)propyl]-2-methylpropane-2-sulfinamide and (RS)-N-[(1S,2R)-2-benzyloxy-1-(2,4,6-trimethylphenyl)propyl]-2-methylpropane-2-sulfinamide: two related protected 1,2-amino alcohols"
     doi: "https://scripts.iucr.org/cgi-bin/paper?su2794"
