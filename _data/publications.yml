@@ -11,15 +11,6 @@
     - "M. R. Carbone"
     - "D. Lu"
 
-  - authors: H. Kwon, T. Hsu, W. Sun, W. Jeong, F. Aydin, J. Chapman, X. Chen, M. R. Carbone, D. Lu, F. Zhou & T. A. Pham
-    title: "Spectroscopy-Guided Discovery of Three-Dimensional Structures of Disordered Materials with Diffusion Models"
-    doi: "https://doi.org/10.48550/arxiv.2312.05472"
-    journal: "arXiv:2312.05472"
-    year: 2024
-    links:
-      - address: null
-        text: "Accepted: Machine Learning Science and Technology"
-
 - year: 2025
   publications:
 
@@ -35,6 +26,28 @@
 
 - year: 2024
   publications:
+
+  - authors: "Z. Wang*, J. Kuang*, A. Rodriguez-Campos, C. Cao, A. Kingan, P. J. Barry, R. C. Hill, D. J. Arnot, A. Christianne, D. C. Bock, Y. Du, S. M. Bak, L. Ma, D. Yang, A. Tayal, M. Drakopoulos, Z. Zhong, N. T. Vo, K. Kisslinger, X. Tong, E. S. Takeuchi, M. R. Carbone, D. Lu, L. Wang, S. Yan, K. J. Takeuchi & A. C. Marschilok"
+    title: "Elucidating the Discharge Behavior of Aqueous Zinc Sulfur Batteries in the Presence of Molybdenum(IV) Chalcogenide Catalyst: The Criticality of Interfacial Electrochemistry"
+    doi: https://doi.org/10.1021/acsami.4c14388
+    journal: "ACS Applied Materials & Interfaces"
+    number: "N/A"
+    year: 2024
+    corresponding:
+    - "L. Wang"
+    - "S. Yan"
+    - "K. J. Takeuchi"
+    - "A. C. Marschilok"
+
+  - authors: H. Kwon*, T. Hsu*, W. Sun, W. Jeong, F. Aydin, J. Chapman, X. Chen, M. R. Carbone, D. Lu, F. Zhou & T. A. Pham
+    title: "Spectroscopy-guided discovery of three-dimensional structures of disordered materials with diffusion models"
+    doi: "https://doi.org/10.1088/2632-2153/ad8c10"
+    journal: "Machine Learning Science and Technology"
+    volume: "5"
+    number: "045037"
+    year: 2024
+    corresponding:
+    - "H. Kwon"
 
   - authors: R. Dongol, A. Mukherjee, J. Bai, H. J. J. van Dam, M. R. Carbone, E. F. Abell, H. Zhong, A. Tayal, L. Ma, O. Kahvecioglu, K. Z. Pupek, D. Lu, K. Rajan & F. Wang
     title: "In situ Synchrotron X‐ray Metrology Boosted by Automated Data Analysis for Real‐time Monitoring of Cathode Calcination"
