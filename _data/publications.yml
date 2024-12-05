@@ -1,6 +1,12 @@
 - year: Preprints
   publications:
 
+  - authors: S. P. Gleason, M. R. Carbone, D. Lu & J. Ciston
+    title: "CuXASNet: Rapid and Accurate Prediction of Copper L-edge X-Ray Absorption Spectra Using Machine Learning"
+    doi: https://doi.org/10.48550/arXiv.2412.02916
+    journal: "arXiv:2412.02916"
+    year: 2024
+
   - authors: S. R. Kharel, F. Meng, X. Qu, M. R. Carbone & D. Lu
     title: "A Universal Deep Learning Framework for Materials X-ray Absorption Spectra"
     doi: "https://doi.org/10.48550/arXiv.2409.19552"
