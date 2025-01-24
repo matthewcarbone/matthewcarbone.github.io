@@ -1,6 +1,12 @@
 - year: Preprints
   publications:
 
+  - authors: I. Latif, A. C. Newkirk, M. R. Carbone, A. Munir, Y. Lin, J. Koomey, X. Yu & Z Dong
+    title: "Empirical Measurements of AI Training Power Demand on a GPU-Accelerated Node"
+    doi: https://doi.org/10.48550/arXiv.2412.08602
+    journal: "arXiv:2412.08602"
+    year: 2024
+
   - authors: S. P. Gleason, M. R. Carbone, D. Lu & J. Ciston
     title: "CuXASNet: Rapid and Accurate Prediction of Copper L-edge X-Ray Absorption Spectra Using Machine Learning"
     doi: https://doi.org/10.48550/arXiv.2412.02916
