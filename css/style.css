@@ -56,12 +56,15 @@ h4
 
 /* Blockquote highlighting */
 blockquote {
-    border-left: 4px solid #ccc;
+    border-left: 8px solid #ccc;
     padding-left: 1em;
     margin-left: 0;
     color: #555;
     background-color: #f9f9f9;
-    font-size: 90%;
+}
+
+blockquote p {
+    font-size: 80%;
 }
 
 /* Paragraphs -------------------------------------------------------------- */
