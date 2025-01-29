@@ -1,3 +1,9 @@
+---
+# This front matter ensures Jekyll processes it
+---
+
+@import "admonition";
+
 body {overflow-y: scroll;}
 
 html, *
@@ -16,18 +22,18 @@ html, *
 /* Alerts ------------------------------------------------------------------ */
 /* See here: https://github.com/Helveg/jekyll-gfm-admonitions/blob/main/assets/admonitions.css */
 
-.markdown-alert {
-    font-size: 1rem;
-}
-
-.markdown-alert .markdown-alert-title {
-    font-size: 1rem;
-}
-
-.markdown-alert p {
-    font-size: 0.8rem;
-    font-weight: 400;
-}
+/*.markdown-alert {*/
+/*    font-size: 1rem;*/
+/*}*/
+/**/
+/*.markdown-alert .markdown-alert-title {*/
+/*    font-size: 1rem;*/
+/*}*/
+/**/
+/*.markdown-alert p {*/
+/*    font-size: 0.8rem;*/
+/*    font-weight: 400;*/
+/*}*/
 
 
 
