@@ -8,3 +8,12 @@ highlighter: rouge
 kramdown:
     input: GFM 
     syntax_highlighter: rouge
+
+# custom collection for grantgist
+collections:
+  grantgists:
+    output: true               # so that Jekyll will output each item as a separate page
+    permalink: /grantgists/:title/
+
+plugins:
+  - jekyll-gfm-admonitions
