@@ -1,24 +1,42 @@
+$admonitions:
+  ('note', 'info.svg', #4493f8)
+  ('tip', 'fire.svg', #3fb950)
+  ('important', 'important.svg', #ab7df8)
+  ('warning', 'alert.svg', #d29922)
+  ('caution', 'stop.svg', #f85149)
+;
 
 .admonition {
-  margin: 1rem 0;
-  padding: 1rem;
-  border-left: 0.25rem solid #30363d; /* Default left border if no type is specified */
-  background-color: #21262d;         /* Dark background */
-  color: black;                    /* Light text (GitHub dark style) */
-  border-radius: 4px;
-  
+  margin: 0.5rem 0;
+  padding: 0.5rem 0.5rem;
+  border-left: 0.25rem solid; /* Default left border if no type is specified */
+
   /* Title within the block */
   .admonition-title {
-    font-weight: 600;
-    margin-top: 0;
-    margin-bottom: 0.5rem;
+    font-weight: 500;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
     display: flex;
     align-items: center;
-    line-height: 1.4;
+    line-height: 1;
     color: inherit; /* fallback to parent's color, or override per-type */
   }
-  
-  .admonition-title::before {
+}
+
+.admonition p {
+  font-weight: 400;
+  color: black;
+}
+
+@each $name, $icon, $icon-color in $admonitions {
+  .admonition.#{$name} {
+    color: #{$icon-color};
+    border-left-color: $icon-color;
+    background-color: rgba($icon-color, 0.05);
+  }
+
+  .admonition.#{$name} .admonition-title::before {
+
     content: '';
     display: inline-block;
     vertical-align: middle;
@@ -26,11 +44,11 @@
     height: 1em; 
     margin-right: 0.3em; // spacing between icon and text
 
-    -webkit-mask: url("/assets/img/icons/alert.svg") no-repeat center center;
-    mask: url("/assets/img/icons/alert.svg") no-repeat center center;
+    -webkit-mask: url("/assets/img/icons/#{$icon}") no-repeat center center;
+    mask: url("/assets/img/icons/#{$icon}") no-repeat center center;
 
     /* The color to fill the masked shape */
-    background-color: currentColor;
+    background-color: $icon-color;
 
     /* Scale the mask inside the 1em box */
     -webkit-mask-size: contain;
@@ -38,120 +56,3 @@
   }
 }
 
-.admonition p {
-  font-weight: 400;
-}
-
-/* -- Individual Admonition Types -- */
-
-/* NOTE */
-$note-color: #4493f8;
-.admonition.note {
-  border-left-color: $note-color; /* bright blue */
-}
-.admonition.note .admonition-title {
-  color: $note-color;  /* optional, or keep the default text color */
-}
-
-/* TIP */
-$tip-color: #3fb950;
-.admonition.tip {
-  border-left-color: $tip-color; /* bright green */
-}
-.admonition.tip .admonition-title {
-  color: $tip-color;
-}
-
-/* IMPORTANT */
-$important-color: #ab7df8;
-.admonition.important {
-  border-left-color: $important-color; /* purple */
-}
-.admonition.important .admonition-title {
-  color: $important-color;
-}
-
-/* WARNING */
-$warning-color: #d29922;
-.admonition.warning {
-  border-left-color: $warning-color; /* gold */
-}
-.admonition.warning .admonition-title {
-  color: $warning-color;
-}
-
-/* CAUTION */
-$caution-color: #f85149;
-.admonition.caution {
-  border-left-color: $caution-color; /* red */
-  background-color: rgba($caution-color, 0.1);
-}
-.admonition.caution .admonition-title {
-  color: $caution-color;
-}
-
-// $primary-color: #fc0;
-// $primary-bgcolor: rgba(55.59%, 44.41%, 0%, .4);
-// $admonitions:
-//     //class (type), icon filename, icon/border color, title bg color
-//     ('note', 'pen-solid.svg')
-//     ('abstract', 'align-left-solid.svg')
-//     ('info', 'pen.svg', '#00b0ff', '#293d52')
-//     ('tip', 'fire.svg', '#ff9100', '#433a38')
-//     ('success', 'check-circle-solid.svg', '#00c953', '#294040')
-//     ('question', 'question-circle-solid.svg', '#00b8d4', '#293e4e')
-//     ('warning', 'exclamation-triangle-solid.svg', '#ff9100', '#564b3c')
-//     ('failure', 'times-circle-solid.svg', '#ff5252', '#564444')
-//     ('danger', 'bolt-solid.svg', '#ff1744', '#563e43')
-//     ('bug', 'bug-solid.svg', '#f50057', '#553c45')
-//     ('example', 'list-ol-solid.svg', '#9e9e9e', '#4c4c4c')
-//     ('quote', 'quote-right-solid.svg', '#9e9e9e', '#4c4c4c')
-// ;
-// .admonition {
-// 	margin: 1.5625em 0;
-// 	overflow: hidden;
-// 	color: black;
-// 	page-break-inside: avoid;
-// 	background-color: white;
-// 	border-left: .3rem solid $primary-color;
-// 	border-radius: .1rem;
-// }
-// .admonition p {
-//     padding: 0 1rem;
-// }
-// .admonition .admonition-title {
-//     color: #ddd;
-//     background-color: $primary-bgcolor;
-//     font-weight: 700;
-//     line-height: 3rem;
-// }
-// .admonition-title::before {
-//     margin-right: .5rem;
-//     width: 1.2rem;
-//     height: 1.2rem;
-//     display: inline-block;
-//     content: '';
-//     -webkit-mask-size: cover;
-//     mask-size: cover;
-//     background-color: $primary-color;
-//     vertical-align: text-bottom;
-// }
-// @each $name, $icon, $icon-color, $title-color in $admonitions {
-//     @if $icon-color {
-//         .admonition.#{$name} {
-//             border-left-color: #{$icon-color};
-//         }
-//     }
-//     @if $title-color {
-//         .admonition.#{$name} .admonition-title {
-//             background-color: #{$title-color};
-//         }
-//     }
-//     .admonition.#{$name} .admonition-title::before {
-//         -webkit-mask: url("/assets/img/icons/#{$icon}") no-repeat 50% 50%;
-//         mask: url("/assets/img/icons/#{$icon}") no-repeat 50% 50%;
-//         @if $icon-color {
-//             background-color: #{$icon-color};
-//         }
-//     }
-// }

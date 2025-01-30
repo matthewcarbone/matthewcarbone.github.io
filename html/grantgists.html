@@ -1,0 +1,31 @@
+---
+layout: default
+title: Grantgist
+permalink: /grantgists.html
+---
+
+<h1 id="page_header">
+    AI Grant Summaries
+</h1>
+
+
+<blockquote class="admonition caution">
+  <p class="admonition-title">Caution: these summaries are AI-generated</p>
+  <p>Use at your own risk, and always check the funding opportunity itself. Do not rely on these summaries when submitting a response!</p>
+</blockquote>
+
+
+{% assign gists_sorted = site.grantgists | sort: "dateISO" | reverse %}
+
+{% assign current_date = "" %}
+
+{% for gist in gists_sorted %}
+  {% if gist.dateISO != current_date %}
+    <h3>{{ gist.dateISO | date: "%d %B %Y" }}</h3>
+    {% assign current_date = gist.dateISO %}
+  {% endif %}
+
+  <ul>
+    <li>{{ gist.OpportunityNumber }} - <a href="{{ gist.url }}">{{ gist.OpportunityTitle }}</a></li>
+  </ul>
+{% endfor %}

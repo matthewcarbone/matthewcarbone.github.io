@@ -188,9 +188,9 @@ font-size: 16px;
 
 a:link, a:active, a:visited, a:hover {
     color: blue;
-    font-weight: 300;
+    font-weight: inherit;
     display: inline;
-    font-size: 1em;
+    font-size: inherit;
     text-decoration: none;
 }
 
