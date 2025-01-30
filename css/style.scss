@@ -16,9 +16,12 @@ html, *
 
     /*  font-size: 1.1rem;*/
     /*  font-size: calc(1vw + 1vh);*/
-    font-size: 20px;
+    font-size: 18px;
 
     line-height: 1em;
+
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
 }
 
 /* Headers ----------------------------------------------------------------- */
@@ -185,7 +188,7 @@ font-size: 16px;
 /* Hyperlinks -------------------------------------------------------------- */
 
 a:link, a:active, a:visited, a:hover {
-    color: blue;
+    color: #b30000;
     font-weight: inherit;
     display: inline;
     font-size: inherit;
