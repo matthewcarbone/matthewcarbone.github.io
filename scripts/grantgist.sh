@@ -13,7 +13,8 @@ pwd
 
 echo "home variable is $HOME"
 
-uvx --from git+https://github.com/matthewcarbone/Composer@v0.0.4 grantgist ai=azure hydra.verbose=true
+uvx --from git+https://github.com/matthewcarbone/Composer@v0.0.4 grantgist ai=azure-o1
 mv ~/.composer-home/grantgist/summaries/*.md _grantgists || exit 0
 git add _grantgists/*.md
 git commit -m "Automatic grantgist run: $now"
+git push
