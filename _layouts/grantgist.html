@@ -40,13 +40,38 @@
 
                 </blockquote>
 
-                <!-- {{ page['@details'].agencyDetails }} -->
-                <!---->
-                <!-- {{ page['@summary'].responses['Scientific Summary']['raw']['content'] | markdownify}} -->
+
+                {% assign total_unsafe = 0 %}
 
                 {% for pair in page['@summary'].responses %}
+                    {% assign total_unsafe = total_unsafe | plus: pair[1].safety_counter.low %}
+                    {% assign total_unsafe = total_unsafe | plus: pair[1].safety_counter.medium %}
+                    {% assign total_unsafe = total_unsafe | plus: pair[1].safety_counter.high %}
+                {% endfor %} 
+
+                {% if total_unsafe == 0 %}
+                    <blockquote class="admonition note">
+                        <p class="admonition-title">All model response marked as safe</p>
+                    </blockquote> 
+                {% endif %}
+            
+                {% for pair in page['@summary'].responses %}
                     <h2>{{ pair[0] }}</h2>
-                    {{ pair[1].raw.content | markdownify }}
+                    {% if pair[1].safety_counter.medium > 0 or pair[1].safety_counter.high > 0 %}
+                        <blockquote class="admonition caution">
+                            <p class="admonition-title">Error: some content was marked unsafe</p>
+                            <p>Model guardrails indicated that some of this content was marked at medium or high severity. The content will not be rendered.</p>
+                        </blockquote>
+                    {% elsif pair[1].safety_counter.low > 0 %}
+                        <blockquote class="admonition warning">
+                            <p class="admonition-title">Warning: some content might be unsafe</p>
+                            <p>Model guardrails/content filter flagged this content at the low severity level. Proceed with caution and please <a href="https://github.com/matthewcarbone/Composer/issues">report any oustanding issues</a>.</p>
+                        </blockquote>
+                        {{ pair[1].raw.content | markdownify }}
+                    {% else %}
+                        {{ pair[1].raw.content | markdownify }}
+                    {% endif %}
+
                 {% endfor %} 
 
                 <hr>
